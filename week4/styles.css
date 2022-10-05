@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: rgb(201, 150, 159);
     text-align: center;
     padding-left: 500px;
     padding-right: 500px;
@@ -11,7 +11,7 @@ p {
 h1 {
     color: white;
     text-align: center;
-    font-size: large;
+    font-size: xx-large;
 }
 .black {
     color: black;
@@ -21,6 +21,7 @@ h1 {
 ol {
     text-align: left;
 }
+
 #draw-border {
     display: flex;
     align-items: center;
@@ -65,14 +66,14 @@ ol {
   }
   
   button:hover::before {
-    border-top-color: #4361ee;
-    border-right-color: #4361ee;
+    border-top-color: #c829b8;
+    border-right-color: #c829b8;
     transition: width 0.3s ease-out, height 0.3s ease-out 0.3s;
   }
   
   button:hover::after {
-    border-bottom-color: #4361ee;
-    border-left-color: #4361ee;
+    border-bottom-color: #c829b8;
+    border-left-color: #c829b8;
     transition: border-color 0s ease-out 0.6s, width 0.3s ease-out 0.6s, height 0.3s ease-out 1s;
   }
   
