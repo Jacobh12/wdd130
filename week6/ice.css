@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff;
+    grid-template-rows:  200px 200px;
+    padding: 0px;
+    column-gap: 0px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .item1 {
+    background-color: rgb(255, 255, 255);
+    width: 753px;
+    height: 800px;
+  }
+
+  .item2 {
+    background-color: grey;
+    width: 750px;
+   height: 800px;
+  }
+ 
+  html {
+    padding: 0px;
+    margin: 0px;
+  }
