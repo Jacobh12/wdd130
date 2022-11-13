@@ -202,6 +202,26 @@ nav {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
 }
+.rates-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.rates-pics {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    grid-column: 2/6;
+    grid-row: 3/5;
+}
+.grand-canyon {
+    border: 5px solid black;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+}
+
 .mountains {
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
