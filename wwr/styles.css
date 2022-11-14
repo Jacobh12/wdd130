@@ -205,12 +205,12 @@ nav {
 .rates-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
 }
 .rates-pics {
     margin: 0;
     width: 100%;
-    height: 100%;
+    height: 100px;
     grid-column: 2/6;
     grid-row: 3/5;
 }
