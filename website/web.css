@@ -97,6 +97,7 @@ align-items: center;
 nav a:hover {
     color: #1a3447;
     background-image: linear-gradient(#50c0dc, #b2a000);
+    box-shadow: 5px 5px 20px 3px rgb(0, 105, 91);
 }
 .home-title {
     color: #c1cdd7;
@@ -161,7 +162,7 @@ border: 2px solid black;
     text-align: center;
     padding-top: 50px;
     font-size: 80px;
-    text-shadow: 0 0 3px #283c00;
+    text-shadow: 0 0 10px #283c00;
     color: white;
     border: 20px inset #50c0dc;
 }
@@ -182,6 +183,8 @@ border: 2px solid black;
     padding-bottom: 0px;
     padding-left: 40px;
     border: 20px outset rgb(0, 102, 128);
+    color:#000000;
+    text-shadow: 0 0 5px #000;
 }
 .profile_pic {
     width: 250px;
@@ -196,6 +199,7 @@ border: 2px solid black;
     text-align: center;
     font-size: 40px;
     border: 20px outset rgb(0, 102, 128);
+    text-shadow: 0 0 5px #000;
 }
 .bio_text {
     text-align: center;
@@ -214,6 +218,7 @@ border: 2px solid black;
 
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
+    box-shadow: 15px 15px 40px 3px rgb(0, 105, 91);
 }
 .rivers-card {
     grid-column: 2/4;
@@ -241,10 +246,23 @@ border: 2px solid black;
 .akk {
     image-rendering: crisp-edges;
     width: 700px;
-    padding: 50px;
+    padding: 0px;
 }
-
-
+#shuffle {
+    font-size: 100px;
+}
+.help_label {
+    font-size: 50px;
+    border: 8px outset rgb(0, 102, 128);
+    padding-right: 10px;
+    width: 100%;
+    background-image: linear-gradient(#50c0dc, #00ff6a);
+    
+}
+.profile_real {
+    border: 8px outset rgb(0, 8, 10);
+    width: 200px;
+}
 
 
 
