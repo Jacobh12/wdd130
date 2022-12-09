@@ -98,6 +98,7 @@ nav a:hover {
     color: #1a3447;
     background-image: linear-gradient(#50c0dc, #b2a000);
     box-shadow: 5px 5px 20px 3px rgb(0, 105, 91);
+    
 }
 .home-title {
     color: #c1cdd7;
@@ -165,6 +166,7 @@ border: 2px solid black;
     text-shadow: 0 0 10px #283c00;
     color: white;
     border: 20px inset #50c0dc;
+    font-family: 'Rubik Dirt';
 }
 .main_pictures {
    padding-top: 0px;
@@ -204,7 +206,8 @@ border: 2px solid black;
 .bio_text {
     text-align: center;
     background-color: lightgray;
-    border: 8px outset rgb(0, 102, 128);   
+    border: 8px outset rgb(0, 102, 128);  
+    font-size: 100px; 
 }
 #wipe {
     font-size: 100px;
@@ -214,6 +217,7 @@ border: 2px solid black;
     padding-left: 50px;
     padding-right: 50px;
     background-image: linear-gradient(#50c0dc, #00ff6a);
+    font-family: 'Rubik Dirt';
 }
 
 .rivers-card, .camping-card, .rapids-card {
@@ -262,7 +266,63 @@ border: 2px solid black;
 .profile_real {
     border: 8px outset rgb(0, 8, 10);
     width: 200px;
+
 }
+.bigg {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: -150px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
