@@ -319,7 +319,12 @@ border: 2px solid black;
     font-family: 'Rubik Dirt';
     padding: 10px;
 }
-
+.bio_text2 {
+    text-align: center;
+    background-color: lightgray;
+    border: 8px outset rgb(0, 102, 128);  
+    font-size: 50px; 
+}
 
 
 
