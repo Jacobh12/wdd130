@@ -313,7 +313,12 @@ border: 2px solid black;
     cursor: pointer;
   }
 
-
+.report {
+    font-size: 30px;
+    border: 5px dashed rgb(0, 95, 119);
+    font-family: 'Rubik Dirt';
+    padding: 10px;
+}
 
 
 
